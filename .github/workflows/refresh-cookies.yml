@@ -3,8 +3,10 @@ name: Refresh Cookies
 on:
   schedule:
     - cron: "0 */2 * * *"
-
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   refresh:
@@ -39,14 +41,17 @@ jobs:
           path: |
             cookies.json
             storage_state.json
-            - name: Commit updated cookies
+
+      - name: Commit updated cookies
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add cookies.json storage_state.json
 
-          git diff --cached --quiet || (
+          if ! git diff --cached --quiet; then
             git commit -m "Update cookies"
             git push
-          )
+          else
+            echo "No changes to commit."
+          fi
