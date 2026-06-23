@@ -1,6 +1,9 @@
 name: Refresh Cookies
 
 on:
+  push:
+    branches:
+      - "**"
   schedule:
     - cron: "0 */2 * * *"
   workflow_dispatch:
