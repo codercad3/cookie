@@ -1,1 +1,14 @@
-{"cookies": [], "origins": [{"origin": "https://challenges.cloudflare.com", "localStorage": [{"name": "cf.turnstile.u", "value": "CrCsj_HORJnF8w_PNG5SjgpYYMr0i2Q5UTvKaBz69mK0-JN568yeCIGMGGeBlXVmzpUEYZiCUH3wyIs1o-OmwnCGjNfCHsULeEuwYToWJw"}]}]}
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://challenges.cloudflare.com",
+      "localStorage": [
+        {
+          "name": "cf.turnstile.u",
+          "value": "Cu4p9omlCHGYVQciODj1mtpW21_6jXvjw2RrksPxgt7I42Z4gB3VFkKZQi5poa8o7AtHsumk7t7sd_HvbzoVJdcqkeiHqzOaNy1SsBQ5ng"
+        }
+      ]
+    }
+  ]
+}
