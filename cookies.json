@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "name": "APP_LOCALE",
+        "value": "en",
+        "domain": "reanime.cz",
+        "path": "/",
+        "expires": 1829685798.088159,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    }
+]

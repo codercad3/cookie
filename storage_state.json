@@ -1,12 +1,23 @@
 {
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "APP_LOCALE",
+      "value": "en",
+      "domain": "reanime.cz",
+      "path": "/",
+      "expires": 1829685798.088159,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
   "origins": [
     {
-      "origin": "https://challenges.cloudflare.com",
+      "origin": "https://reanime.cz",
       "localStorage": [
         {
-          "name": "cf.turnstile.u",
-          "value": "Cq06vhb4shdwejFli91OFulSKNj3FaPaXNPQ0sLgNoq_-H-bDk4CRRfmh38iVWbSvWHfr-FW00wjpy4MDcz71ngejN6YdvWihuXdK4HnPQ"
+          "name": "project_r_guest",
+          "value": "618376b4-36af-4883-8f89-d1204cadc4c6"
         }
       ]
     }
