@@ -5,7 +5,7 @@
       "value": "en",
       "domain": "reanime.cz",
       "path": "/",
-      "expires": 1830211654.375102,
+      "expires": 1830249716.569303,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -17,7 +17,7 @@
       "localStorage": [
         {
           "name": "project_r_guest",
-          "value": "98c849ed-f3e3-4364-8cab-379b21ebc15a"
+          "value": "3c7b23ec-3e5a-4a62-a14f-c8dac7f7d297"
         }
       ]
     }
